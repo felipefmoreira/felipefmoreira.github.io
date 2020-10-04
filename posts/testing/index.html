@@ -1,69 +1,93 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-		<title>Testing &middot; Felipe Fernandes Moreira</title>
-		<link rel="canonical" href="https://felipefmoreira.github.io/posts/testing/">
-		<link rel="stylesheet" type="text/css" href="/css/main.css" />
-		
-	</head>
-	<body>
-		<a id="title" href="/" title="Felipe Fernandes Moreira">
-			
-				<img id="logo" alt="Logo" src="/images/logo.png" />
-			
-			
-				<h1>Felipe Fernandes Moreira</h1>
-			
-		</a>
-		
-			<h4>Página Pessoal</h4>
-		
-		<div id="social">
-			
-			
-			<a href="mailto:felipef@gmail.com" title="Email">
-				<img alt="Email" height="64px" width="64px" src="/images/email.svg" />
-			</a>
-			
-			
-			
-			
-			
-			<a href="https://linkedin.com/in/felipefmoreira" title="LinkedIn">
-				<img alt="LinkedIn" height="64px" width="64px" src="/images/linkedin.svg" />
-			</a>
-			
-                        
-		</div>
-		<div class="links">
-			<a href="/">Home</a>
-			
-			
-		</div>
+<html lang="en">
 
-	<div class="postBody">
-		<div class="post">
-			<h1>Testing</h1>
-			<span class="post-meta">Sun, Oct 4, 2020</span>
-			<h2 id="thats-a-test">That&rsquo;s a test</h2>
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Testing - Felipe Fernandes Moreira</title>
+
+<meta name="description" content="That&rsquo;s a test Hope it works.">
+<meta name="keywords" content= />
+<meta name="author" content="">
+<link rel="canonical" href="https://felipefmoreira.github.io/posts/testing/" />
+<link href="https://felipefmoreira.github.io/assets/css/stylesheet.min.8f27fc8343c7d0e331324a4fd1a12aae42f968fcbf43ccc66e00195b46d3dc82.css" integrity="sha256-jyf8g0PH0OMxMkpP0aEqrkL5aPy/Q8zGbgAZW0bT3II=" rel="preload stylesheet"
+    as="style">
+<link rel="apple-touch-icon" href="https://felipefmoreira.github.io/apple-touch-icon.png">
+<link rel="icon" href="https://felipefmoreira.github.io/favicon.ico">
+<meta name="generator" content="Hugo 0.75.1" />
+
+</head>
+
+<body class="single" id="top">
+<header class="header">
+    <nav class="nav">
+        <p class="logo"><a href="https://felipefmoreira.github.io/">Felipe Fernandes Moreira</a></p>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+        </ul>
+    </nav>
+</header>
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      Testing
+    </h1>
+    <div class="post-meta">
+      <time>October 4, 2020</time>
+    </div>
+  </header>
+  <div class="post-content"><h2 id="thats-a-test">That&rsquo;s a test</h2>
 <p>Hope it works.</p>
+</div>
+  <footer class="post-footer">
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2020 <a href="https://felipefmoreira.github.io/">Felipe Fernandes Moreira</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo️️</a>️</span>
+    <span>&middot;</span>
+    <span>Theme️ <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top">
+    <button class="top-link" id="top-link" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" /></svg>
+    </button>
+</a>
+<script src="https://felipefmoreira.github.io/assets/js/highlight.min.e7afc2928c0925d65c4732dfebe147014d91299a98e819e4b42f25c4fa68e91c.js" integrity="sha256-56/CkowJJdZcRzLf6&#43;FHAU2RKZqY6BnktC8lxPpo6Rw="></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
 
-		</div>
-	</div>
-		<div class="links">
-			<a href="/">Home</a>
-			
-			
-			<a href="#top">Top</a>
-		</div>
-		
-		
-		<p id="copyright">
-			© Copyright 2020 Felipe Moreira
-		</p>
-		
-	</body>
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+</body>
+
 </html>
-
